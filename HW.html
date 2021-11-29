@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		td {color: blue;font-weight: bold;}
+		th {color: rebeccapurple;font-style: italic;}
+		color{color:gold;text-decoration: underline;font-style: normal;}
+
+	</style>
+</head>
+<body>
+<table border="1">
+	<thead>
+		
+		<th colspan="3">About--110306027</th>
+		
+	</thead>
+	<tbody>
+		<tr>
+			<th rowspan="3"><img src="1024x768.jpeg" width="200" height="150"
+				alt="it is a picture"><br>personal photo
+			</th>
+			<td colspan="2"><label>Name:
+						<input type="text" name="name" size="20"></label><br>
+				<label>Gender:
+					<input type="radio" name="" value="Male">Male
+					<input type="radio" name="" value="Female">Female
+					<input type="radio" name="" value="Other">Other
+				</label>
+			</td>
+		<tr>
+			<td>
+				<color>
+				County:
+					<select name="county">
+						<option value="Taipei">Taipei</option>
+						<option value="Tainan">Tainan</option>
+						<option value="Taichung">Taichung</option>
+						<option value="Taoyuan">Taoyuan</option>
+				</color>
+			</td>
+		
+			<td>
+				<color>
+					Birthday:
+						<input name="date" type="date">
+				</color>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<label>E-mail:
+				<input type="text" name="email" size="10" maxlength="40">
+				</label>
+			</td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr>
+			<td>Hobby</td>
+			<td colspan="2">
+				<input type="checkbox" name="" value="Swimming">Swimming
+				<input type="checkbox" name="" value="Volleyball">Volleyball
+				<input type="checkbox" name="" value="Movie">Movie
+				<input type="checkbox" name="" value="Game">Game
+				<input type="checkbox" name="" value="Sleep">Sleep
+			</td>
+		</tr>
+		<tr>
+			<td>Skill</td>
+			<td colspan="2">
+				<input type="checkbox" name="" value="Java">Java
+				<input type="checkbox" name="" value="HTML">HTML
+				<input type="checkbox" name="" value="Python">Python
+				<input type="checkbox" name="" value="Microsoft Office">Microsoft Office
+				<input type="checkbox" name="" value="Premiere">Premiere
+			</td>
+		</tr>
+		<tr>
+			<td>Say Something</td>
+			<td colspan="2">
+				<textarea type="text" name="" size="30" placeholder="Say something here..."></textarea>
+			</td>
+		</tr>
+	</tbody>
+	<tobody>
+		<td colspan="3">
+			<input type="submit" name="" value="提交">
+			<input type="reset" name="" value="重設">
+		</td>
+</table>
+
+</body>
+</html>
